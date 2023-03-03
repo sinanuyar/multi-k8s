@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: sinanuyar/multi-client:k8s_v1
+          image: sinanuyar/multi-client
           ports:
             - containerPort: 3000
 

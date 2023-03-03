@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: sinanuyar/multi-worker:k8s_v1
+          image: sinanuyar/multi-worker
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service

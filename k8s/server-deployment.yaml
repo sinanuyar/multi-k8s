@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: sinanuyar/multi-server:k8s_v1
+          image: sinanuyar/multi-server
           ports:
             - containerPort: 5000
           env:
